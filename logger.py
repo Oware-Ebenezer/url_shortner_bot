@@ -2,7 +2,7 @@ import logging
 
 def setup_logging() -> None:
     logging.basicConfig(
-        format="%(asctimes)s | %(levelname)s | %(messages)s",
+        format="%(asctime)s | %(levelname)s | %(message)s",
         level=logging.INFO
     )
 
