@@ -23,9 +23,9 @@ from utils import is_valid_url
 async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /start — send a welcome message explaining how to use the bot."""
     await update.message.reply_text(
-        "<b>Welcome to Bingi Bot Shortener Bot!</b>\n\n"
-        "Created by Ebenezer Kwabena Oware\n\n"
-        "To perform a simple task, just send me any long URL and I'll shrink it for you.\n\n"
+        "<b>Welcome to Bingi Bot URL Shortener Bot!</b>\n\n"
+        "Created by Ebenezer Kwabena Oware under <b>PIXEL&LOGIC community</b>\n\n"
+        "To perform a simple task, just send me any long URL and I'll shrink it for you.\n"
         "Send me any long URL and I'll shrink it for you.\n\n"
         "Commands:\n"
         "• /shorten &lt;url&gt; — shorten a specific URL\n"
