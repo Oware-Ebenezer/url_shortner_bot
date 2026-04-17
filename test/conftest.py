@@ -40,4 +40,4 @@ def make_update():
 
 @pytest.fixture
 def make_context():
-    return _make_context()
+    return _make_context
