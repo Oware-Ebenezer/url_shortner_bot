@@ -12,8 +12,7 @@ async def cmd_start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "<b>Welcome to Bingi Bot URL Shortener Bot!</b>\n\n"
         "Created by Ebenezer Kwabena Oware under <b>PIXEL&LOGIC community</b>\n\n"
-        "To perform a simple task, just send me any long URL and I'll shrink it for you.\n"
-        "Send me any long URL and I'll shrink it for you.\n\n"
+        "To perform a simple task, just send me any long URL and I'll shrink it for you.\n\n"
         "Commands:\n"
         "• /shorten &lt;url&gt; — shorten a specific URL\n"
         "• /help — show this message",
