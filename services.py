@@ -1,11 +1,3 @@
-"""
-services.py
------------
-Business logic layer — handles all external API communication.
-No Telegram types here; this layer knows nothing about the bot itself.
-Swap TinyURL for another provider by editing only this file.
-"""
-
 import httpx
 
 from config import TINYURL_API, HTTP_TIMEOUT

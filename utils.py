@@ -1,10 +1,3 @@
-"""
-utils.py
---------
-Pure utility functions with no side effects.
-Currently holds URL validation — add other general-purpose helpers here.
-"""
-
 from config import URL_REGEX
 
 

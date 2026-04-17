@@ -1,13 +1,3 @@
-"""
-config.py
----------
-All configuration constants and environment variables live here.
-Nothing else should read os.environ directly — always import from this file.
-
-Loads a .env file automatically when present (local development).
-On Railway, environment variables are injected directly — no .env needed.
-"""
-
 import os
 import re
 

@@ -18,10 +18,6 @@ from handlers import (
 
 
 def create_app() -> Application:
-    """
-    Build and return a fully configured Telegram Application.
-    Raises ValueError if BOT_TOKEN is missing.
-    """
     if not BOT_TOKEN:
         raise ValueError(
             "BOT_TOKEN environment variable is not set.\n"
